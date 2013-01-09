@@ -12,6 +12,11 @@ Benefits
 * Can using XULApp StarterKit Auto-load Modules .
 
 
+Download pre-build XPI
+-----------------------------
+Download pre-build XPI in [downloads](https://github.com/racklin/xulapp-starterkit-app-webapp-wrapper/tree/master/downloads)
+
+
 Get started
 -----------------------------
 Build Webapp Wrapper for your web application:
