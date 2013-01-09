@@ -44,5 +44,5 @@ And now in javascript you can using *XULApp* global variable to access Modules.
 
 License
 -----------------------------
-Webapp Wrapper For XULApp StarterKit are licensed under the [MIT License](http://opensource.org/licenses/MIT).
-See LICENSE.TXT for more details.
+Webapp Wrapper For XULApp StarterKit are licensed under the [MPL License].
+See LICENSE for more details.
