@@ -10,6 +10,9 @@ Benefits
 
 * Latest HTML5 support (Same as Firefox 18, and easy to use new Gecko versions as they are released)
 * Can using XULApp StarterKit Auto-load Modules .
+* Bundled HTTP server (No local content restrictions like when using file:// protocol etc) .
+  * Default bind address 127.0.0.1
+  * Default listen port 54321
 
 
 Download pre-build XPI
@@ -24,18 +27,13 @@ Build Webapp Wrapper for your web application:
 1. Fork this project.
 2. Copy your web application to webapp/ directory.
 3. Change install.rdf and build.sh for your project name.
-4. run build.sh
+4. Change bind address or port in defaults/preferences/http.js.
+5. run build.sh
 
 
 Auto-Load Modules in HTML5
 -----------------------------
-Added init.js to your html file. EX.
-
-```
-<script src="chrome://xulapp/content/init.js"></script>
-```
-
-And now in javascript you can using *XULApp* global variable to access Modules.
+In javascript you can using *XULApp* global variable to access Modules.
 
 ```
 <p><a onclick="XULApp.Notification.info('Hello', 'World'); return false;">Demo XULApp XPCOM Notification</a></p>

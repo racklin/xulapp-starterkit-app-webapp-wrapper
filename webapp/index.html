@@ -41,6 +41,12 @@
 
         <!-- Add your site or application content here -->
 
+        <script>
+          alert(Components);
+          alert(Components.classes["@webapp-xul-wrapper/App;1"]
+          .getService(Components.interfaces.nsISupports)
+          .wrappedJSObject);
+        </script>
         <script src="chrome://xulapp/content/init.js"></script><!-- load xulapp starterkit init.js -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="scripts/vendor/jquery.min.js"><\/script>')</script>
