@@ -4,7 +4,7 @@
     <Description about="urn:mozilla:install-manifest">
         <em:id>webapp_wrapper@starterkit.xulapp.org</em:id>
         <em:name>Webapp Wrapper For XULApp StarterKit</em:name>
-        <em:version>1.0.0</em:version>
+        <em:version>1.1.1</em:version>
         <em:description>HTML5 webapp wrapper for XULApp StarterKit</em:description>
         <em:creator>Rack Lin(racklin@gmail.com)</em:creator>
         <em:homepageURL>https://github.com/racklin/</em:homepageURL>

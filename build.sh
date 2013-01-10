@@ -5,7 +5,7 @@
 CALLDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 PACKAGENAME="xulapp-starterkit-webapp-wrapper"
-VERSION="1.1.0"
+VERSION="1.1.1"
 
 BUILDID=`date +%Y%m%d`
 DISTDIR="$CALLDIR/dist"

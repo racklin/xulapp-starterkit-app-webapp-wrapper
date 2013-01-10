@@ -44,7 +44,12 @@
 
     window.addEventListener('DOMContentLoaded', function(e) {
         if (!initilized) {
-            document.getElementById('webapp').loadURI('http://'+bindAddress+':'+port+'/');
+            var homePage = 'http://'+bindAddress+':'+port+'/';
+            var webappBrowser = document.getElementById('webapp');
+            if (webappBrowser) {
+                webappBrowser.homePage = homePage;
+                webappBrowser.loadURI(homePage);
+            }
             initilized = true;
         }
 
