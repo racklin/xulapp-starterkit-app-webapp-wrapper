@@ -17,7 +17,7 @@ Benefits
 
 Download pre-build XPI
 -----------------------------
-Download pre-build XPI in [downloads](https://github.com/racklin/xulapp-starterkit-app-webapp-wrapper/tree/master/downloads)
+Download pre-build XPI in [download XPI](https://github.com/racklin/xulapp-starterkit-app-webapp-wrapper/raw/master/downloads/xulapp-starterkit-webapp-wrapper-1.1.1.xpi)
 
 
 Get started
